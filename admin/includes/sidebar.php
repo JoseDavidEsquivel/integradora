@@ -122,6 +122,16 @@
                 </div>
                 <?php endif; ?>
 
+
+    <?php 
+// CODIGO PARA EL SIDEBAR DEL ADMINISTRADOR PARA LA SECCION DE DISPOSITIVOS
+// CODIGO PARA EL SIDEBAR DEL ADMINISTRADOR PARA LA SECCION DE DISPOSITIVOS
+// CODIGO PARA EL SIDEBAR DEL ADMINISTRADOR PARA LA SECCION DE DISPOSITIVOS
+// CODIGO PARA EL SIDEBAR DEL ADMINISTRADOR PARA LA SECCION DE DISPOSITIVOS
+// CODIGO PARA EL SIDEBAR DEL ADMINISTRADOR PARA LA SECCION DE DISPOSITIVOS
+// CODIGO PARA EL SIDEBAR DEL ADMINISTRADOR PARA LA SECCION DE DISPOSITIVOS
+    ?>
+
                 <?php if($_SESSION['auth_role'] == '1'): ?>
                 <a class="nav-link collapsed  <?= $page == 'dispositivo-view.php' || $page == 'dispositivo-add.php' ? 'show':''?> " href="#" data-bs-toggle="collapse" data-bs-target="#collapseDispositivo" aria-expanded="false" aria-controls="collapseLayouts">
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
