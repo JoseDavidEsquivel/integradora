@@ -571,6 +571,12 @@
         }
     }
 
+// CODIGO PARA EL MODULO DE DISPOSITIVOS
+// CODIGO PARA EL MODULO DE DISPOSITIVOS
+// CODIGO PARA EL MODULO DE DISPOSITIVOS
+// CODIGO PARA EL MODULO DE DISPOSITIVOS
+// CODIGO PARA EL MODULO DE DISPOSITIVOS
+
     if(isset($_POST['device_add'])){
 
         // Validar el estado
@@ -736,28 +742,4 @@
         curl_close($curl);
     }
     
-    // if(isset($_POST['user_suspend'])){
-
-    //     $user_id = $_POST['user_suspend'];
-
-
-    //     // 2 = delete
-    //     $query = "UPDATE users SET status= '1' WHERE id='$user_id'";
-    //     $query_run = mysqli_query($conn, $query);
-
-    //     if($query_run){
-        
-    //         $_SESSION['message'] = "Se ha suspendido con exito";
-    //         header('Location: view-register.php');
-    //         exit(0);
-
-    //     } else {
-
-    //         $_SESSION['message'] = "Algo a salido mal";
-    //         header('Location: view-register.php');
-    //         exit(0);
-
-    //     }
-    // }
-
 ?>
